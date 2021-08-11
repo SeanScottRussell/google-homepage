@@ -1,0 +1,23 @@
+body{
+    font-size: 14px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.abt{
+    margin-left: 15px;
+}
+.str{
+    margin:0 5px;
+    padding: 5px;
+    display: inline-block;
+    flex-grow: 1;
+}
+.gml{
+    margin: 5px;
+}
+.img, .dts{
+    margin: 0 5px;
+}
