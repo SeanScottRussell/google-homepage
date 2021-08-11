@@ -1,10 +1,13 @@
 body{
     font-size: 14px;
 }
-#header{
+#nav{
     display: flex;
     align-items: center;
     padding: 6px;
+}
+ul {
+    list-style-type: none;
 }
 .abt{
     margin-left: 15px;
