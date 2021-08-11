@@ -1,0 +1,1 @@
+This is my first GitHub project. I'm following the "Google homepage" project from The Odin Project.
