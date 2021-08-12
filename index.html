@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="main.css">
         <title>Google</title>
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <nav>
-            <ul id="nav">
-                <li class="abt"><a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a></About></li>
-                <li class="str"><a href="https://store.google.com/GB?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a> </li>
-                <li class="gml"><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
-                <li class="img"><a href="https://www.google.co.uk/imghp?hl=en&ogbl">Images</a></li>
-                <li class="dts"><img class="dts-img" src="images/dts.png"></div>
-            </ul>
-        </nav>
-        <div id="main">
-            <img class="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            <br>
-            <input type="text" id="search" name="search">
-            <br>
-            <div>
-                <button type="button">Google Search</button>
-                <button type="button">I'm Feeling Lucky!</button>
+        <div class="parent">
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a class="abt" href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                        <li><a class="str" href="https://store.google.com/GB?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a></li>
+                        <div class="gmlimg">
+                        <li><a class="gml" href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+                        <li><a class="img" href="https://www.google.co.uk/imghp?hl=en&ogbl">Images</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search">
+                <img class="logo" src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+                   <form>
+                       <div  class="sbox">
+                       <input type="text">
+                       </div><br>
+                       <div class="btn">
+                        <input type="button" value="Google Search">
+                        <input type="button" value="I'm Feeling Lucky">
+                       </div>
+                   </form>
+               </div>
+            <div class="grey">
+                <h5>United Kingdom</h5><hr>
+            </div>
+            <div class="footer">    
+                <footer>
+                    <span>
+                        <ul>
+                            <li><a class="adv" href="https://www.google.co.uk/intl/en_uk/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                            <li><a class="bzns" href="https://www.google.co.uk/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                            <li><a class="hsw" href="https://google.com/search/howsearchworks/?fg=1" >How Search Works</a> </li>
+                            <div class="fltr">
+                                <li><a class="prv" href="https://policies.google.com/privacy?hl=en-GB&fg=1">Privacy</a></li>
+                                <li><a class="trm" href="https://policies.google.com/terms?hl=en-GB&fg=1">Terms</a></li>
+                                <li><a class="stn" href="https://www.google.co.uk/#:~:text=Terms-,Settings">Settings</a></li>
+                            </div>
+                        </ul>
+                    </span>
+                </footer>
             </div>
         </div>
-        <footer></footer>
     </body>
 </html>
-    
